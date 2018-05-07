@@ -6,8 +6,6 @@ defmodule Metatags.Mixfile do
       app: :metatags,
       version: "0.1.2",
       elixir: "~> 1.4",
-      build_embedded: Mix.env == :prod,
-      start_permanent: Mix.env == :prod,
       deps: deps(),
       description: description(),
       package: package(),
@@ -48,9 +46,9 @@ defmodule Metatags.Mixfile do
       name: :metatags,
       description: description(),
       files: ["lib", "mix.exs", "README*", "LICENSE*"],
-      maintainers: ["johan Tell"],
-      licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/mintcore/metatags"}
+      maintainers: ["Nico Cille"],
+      licenses: ["BSD"],
+      links: %{"GitHub" => "https://github.com/nicocaille/metatags"}
     ]
   end
 end
